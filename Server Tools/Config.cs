@@ -11,9 +11,9 @@ namespace Server_Tools
         public bool LockdownLeverLock { get; set; } = true;
         public bool JoinAnnouncment { get; set; } = true;
         public bool LeaveAnnouncment { get; set; } = true;
-        public static string RespawnText { get; set; } = "<color=red>Pamiętaj o możliwości odrodzenia się komendą</color> <color=lime>/respawn</color>";
-        public static string JoinText { get; set; } = "<color=lime>{player}</color> dołączył na serwer. Na serwerze jest <color=lime>{online}</color> graczy.";
-        public static string LeaveText { get; set; } = "<color=lime>{player}</color> opuścił na serwer. Na serwerze jest <color=lime>{online}</color> graczy.";
-        public static string AddTarget049 { get; set; } = "<color=orange>SCP 049 obrał cię za cel. </color><color=red>UCIEKAJ!</color>";
+        public string RespawnText { get; set; } = "<color=red>Remember to use</color> <color=lime>/respawn</color> <color=red>to respawn!</color>";
+        public string JoinText { get; set; } = "<color=lime>{player}</color> Joined the server, server has <color=lime>{online}</color> players.";
+        public string LeaveText { get; set; } = "<color=lime>{player}</color> left the server, server has <color=lime>{online}</color> players.";
+        public string AddTarget049 { get; set; } = "<color=orange>SCP-049 has targeted you, </color><color=red>RUN!</color>";
     }
 }

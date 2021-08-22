@@ -10,10 +10,9 @@ namespace Server_Tools
     public class MainPlugin : Plugin<Config>
     {
         public override string Name => "Server Tools";
-        public override string Author => "CoronaCreeper#4884";
+        public override string Author => "CoronaCreeper#4884 & VersLugia";
         public override Version Version => new Version(0, 1, 1);
-        public override Version RequiredVersion => new Version(0, 2, 0);
-
+        
         JoinLeave JL = new JoinLeave();
         Utils Util = new Utils();
         Logs Logs = new Logs();
