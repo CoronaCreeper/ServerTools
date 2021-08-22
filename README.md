@@ -1,11 +1,11 @@
 # ServerTools
 An SCP-ET plugin that add more logs & utils for servers
-# Features
+## Features
 - Player Join/Leave Announcments
 - More Logs (Pickup Item, SCP106 Recontaint etc)
 - LCZ Lockdown Lever Lock
 - SCP-049 AddTarget notification
-# Config
+## Config
 |Config Line|Type|Description|
 |-----------|----|-----------|
 |IsEnabled|bool|If True, plugin will load.|
