@@ -1,5 +1,7 @@
 #ServerTools
+
 An SCP-ET plugin that add more logs & utils for servers
+
 #Config
 |Config Line|Type|Description|
 |-----------|----|-----------|
